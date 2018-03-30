@@ -2,19 +2,6 @@
 
 use Illuminate\Database\Seeder;
 
-class DatabaseSeeder extends Seeder
-{
-    /**
-     * Run the database seeds.
-     *
-     * @return void
-     */
-    public function run()
-    {
-         $this->call(UserstableSeeder::class);
-    }
-}
-
 class UsersTableSeeder extends Seeder
 {
     /**
@@ -33,4 +20,3 @@ class UsersTableSeeder extends Seeder
         ]);
     }
 }
-
